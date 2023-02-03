@@ -10,7 +10,7 @@ This project was made using the follow technologies:
 <li><a href="https://nodejs.org/en/">Node.js</a></li>
 <li><a href="https://expressjs.com/">Express</a></li>
 <li><a href="https://www.mongodb.com/">Mongodb</a></li>
-<li><a href="https://www.npmjs.com/package/express-handlebars">Express Handlebars</a></li>
+<li><a href="https://www.npmjs.com/package/ejs">templates EJS</a></li>
 </ul>
 
 ## Features
