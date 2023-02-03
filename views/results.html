@@ -1,0 +1,21 @@
+<%- include('layout.html'); %>
+
+<div class="container">
+    <h1>Search Results</h1>
+    <div class="container">
+      <div class="row user-box">
+        <% if(searchResult.length > 0){ %>
+          <% searchResult.forEach(function(userData) { %>
+            <div class="col-md-5 col-md-offset-2">
+            <img src="/images/user.png">
+            <p><%= userData.firstname + ' ' + userData.lastname %></p>
+            <p><%= userData.email %></p></div>
+          <% }); %>
+         <% } else{ %>
+           <h2>User not found!</h2>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

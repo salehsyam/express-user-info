@@ -1,0 +1,13 @@
+<%- include('layout.html'); %>
+<div class="container">
+    <form  action="/search" method="post" class="text-center search-form" autocomplete="off">
+      <h1>Search User</h1>
+      <input name="userInput" id="user-input" list="suggestions"  class="form-control form-control-lg" type="text" placeholder="By first name, last name or full name" required>        <button type="submit" class="btn btn-custom mb-2">Search</button>
+    </form>
+    <div id="sugestions"></div>
+    <datalist id="suggestions" class="dropdown-sugestions"></datalist>
+
+  </div>
+  <script src="/javascripts/autocomplete-search.js" type="text/javascript"></script>
+</body>
+</html>
